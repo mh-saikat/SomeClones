@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    overflow-y: scroll;
+}
+
+/* body area */
+#body_area{
+    background: #FFFFFF;
+    height: 665px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+#contant_area{
+    width: 935px;
+    height: 778px;
+    margin: 32px auto 0;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left_side{
+    width: 430px;
+    height: 581.15px;
+    background-image: url(img/home-phones.png);
+    background-repeat: no-repeat;
+    margin: 0 32px 12px 0;
+    position: relative;
+}
+.left_side img{
+    position: absolute;
+    top: 28px;
+    left: 155px;
+    width: 250px;
+    height: 538.89px;
+}
+.form_area{
+    flex-basis: 350px;
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 0px;
+    
+}
+.form{
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    width: 175px;
+    height: 51px;
+    background-image: url(img/logo.png);
+    background-position: 0 -52px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: 25px;
+}
+.form_area form{
+    flex-basis: 348px;
+    margin: 24px 0 0;
+}
+.form_area input{
+    width: 258px;
+    padding: 9px 0 7px 8px;
+}

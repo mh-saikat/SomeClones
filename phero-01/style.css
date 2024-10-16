@@ -73,7 +73,7 @@ body {
   width: 100%;
 }
 #main-area .hero-bg {
-  background-image: url(./assets/Hero-bg.png);
+  background-image: url(./img/Hero-bg.png);
   background-size: cover;
 }
 .hero-content {
@@ -296,7 +296,7 @@ body {
   height: 50px;
 }
 .support {
-  background-image: url(./assets/handshake.jpg);
+  background-image: url(./img/handshake.jpg);
   background-size: cover;
   background-position: 100%;
   width: 70%;
@@ -523,7 +523,7 @@ form button:hover {
     font-size: 16px;
   }
 }
-@media (max-width: 1105px) {
+@media (min-width:751px) and (max-width: 1105px) {
   .container {
     max-width: 1105px;
   }
